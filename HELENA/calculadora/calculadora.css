@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 200px;
+    padding: 0;
+    background-color:rgb(75, 2, 2);
+}
+
+header {
+    background-color: #00000090;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top:20em;
+    margin-right:20em;
+    margin-left:20em;
+}
+
+main {
+    padding: 20px;
+    margin-bottom:20em;
+    margin-right:20em;
+    margin-left:20em;
+    background-color: rgb(252, 174, 174);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+button:focus {
+    outline: none;
+}
+
+.calculadora{
+    margin: 50px;
+}
