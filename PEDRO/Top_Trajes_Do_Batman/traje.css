@@ -1,0 +1,112 @@
+@import url('https://fonts.cdnfonts.com/css/batmanforeveralternate');
+@import url('https://fonts.cdnfonts.com/css/isidora');
+
+body{
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    background-color: #0E2223;
+    text-decoration-color: white;
+}
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Isidora', sans-serif;
+    text-decoration: double;
+}
+
+.titulo{
+    background-color: #C4AE41;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    border:6px solid #F3F2C2;
+}
+
+.top5{
+    font-family: 'Isidora', sans-serif;
+    display: block;
+    color: white;
+    text-align: left;
+    background-color: #00070D;
+    border:3px solid whitesmoke;
+}
+
+.top4{
+    font-family: 'Isidora', sans-serif;
+    color: white;
+    text-align: left;
+    background-color: #00070D;
+    border:3px solid whitesmoke;
+}
+
+.top3{
+    font-family: 'Isidora', sans-serif;
+    color: white;
+    text-align: left;
+    background-color: #00070D;
+    border:3px solid whitesmoke;
+}
+
+.top2{
+    font-family: 'Isidora', sans-serif;
+    color: white;
+    text-align: left;
+    background-color: #00070D;
+    border:3px solid whitesmoke;
+}
+
+.top1{
+    font-family: 'Isidora', sans-serif;
+    color: white;
+    text-align: left;
+    background-color: #00070D;
+    border:3px solid whitesmoke;
+}
+
+.avaliacao{
+    color: white;
+    text-align: center;
+    background-color: #00070D;
+    border:3px solid whitesmoke;
+}
+
+.direita{
+    font-family: 'Isidora', sans-serif;
+    color: black;
+    background-color: #C4AE41;
+    border:6px solid #F3F2C2;
+    float: right;
+    height: 1187px;
+    width: 250px;
+    max-width: 250px;
+    max-height: 1187px;
+}
+
+.link{
+    color: #2D9CB7;
+    background-color: #41141B;
+    border:3px solid whitesmoke;
+    list-style-type: none;
+    padding: 20px;
+    font-size: x-large;
+}
+
+li{
+    display: inline;
+}
+
+.link li a{
+    text-decoration: none;
+    color: #2D9CB7;
+}
+
+img{
+    height: 400px;
+    border:6px solid black;
+}
+
+@media only screen and (max-width: 620px) {
+    .direita, .link {
+        width: 100%;
+    }
+}
